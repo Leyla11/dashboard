@@ -19,12 +19,8 @@ const Datatable = () => {
          <DataGrid
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
-        initialState={{
-          pagination: {
-            paginationModel: { page: 0, pageSize: 5 },
-          },
-        }}
-        pageSizeOptions={[5, 10]}
+        pageSize= {9}
+        rowsPerPageOptions={[9]}
         checkboxSelection
       />
     </div>

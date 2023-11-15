@@ -45,6 +45,7 @@
             border-radius: 5px;
             color: darkblue;
             border: 1px dotted rgba(0, 0, 139, 0.596);
+            cursor: pointer;
         }
 
         .deleteButton {
@@ -52,6 +53,7 @@
             border-radius: 5px;
             color: crimson;
             border: 1px dotted rgba(220, 20, 60, 0.6);
+            cursor: pointer;
         }
     }
 }

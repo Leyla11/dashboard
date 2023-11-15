@@ -17,7 +17,25 @@ const Single = () => {
               src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" 
               alt="" 
               className="itemImg" />
-            details
+            <div className="details">
+              <h1 className="itemTitle">Jane Doe</h1>
+              <div className="detailItem">
+                <span className="itemKey">Email:</span>
+                <div className="itemValue">janedoe@gmail.com</div>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Phone:</span>
+                <div className="itemValue">+1 2313 12 14</div>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Adress:</span>
+                <div className="itemValue">Elton St. 234 Garden Yd. NewYork</div>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Country:</span>
+                <div className="itemValue">USA</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="right"></div>
